@@ -1,0 +1,318 @@
+\section{Análise Estatística}
+
+Nesta seção serão será feita uma análise estatística dos resultados para verificar se as impressões da seção anterior se confirmam. Foram utilizados o Teste Anova e Teste de Tukey.
+
+
+\subsection{Análise de Variância}
+
+\subsubsection*{Hipóteses}
+
+$ H_o$: Não existe diferença significativa entre os métodos. %\mu_{i} = \mu_{j}
+
+$ H_1$: Existem diferenças significativas entre os métodos. %: \mu_{i} \neq \mu_{j}  
+
+Significância desejada: $ \alpha=0.05$ .
+
+A Tabela \ref{tab:anova} apresenta o resultado da análise de variância para todos os problemas estudados. 
+
+\begin{table}[!htb]
+	\centering
+	\caption{Análise de variância das médias encontradas}
+	\label{tab:anova}
+	\begin{tabular}{|llrrrrr|}
+		\toprule
+		\textbf{Problema} & & \multicolumn{1}{c}{\textbf{Df}} & \multicolumn{1}{c}{\textbf{Sum Sq}} & \multicolumn{1}{c}{\textbf{Mean Sq}} & \multicolumn{1}{c}{\textbf{F-value}} & \multicolumn{1}{c|}{\textbf{Pr(>F)}} \\ \hline
+		\multirow{2}{*}{ZDT1} & \textbf{Métodos}  & 2 	& 0.1994 & 0.09971 & 16.97 & 2.33e-07 \\
+							  &	\textbf{Resíduos} & 147 & 0.8635 & 0.00587 &  	   & \\ \hline
+								
+		\multirow{2}{*}{ZDT3} &	\textbf{Métodos} 	&2	 & 0.937	&  0.4687 	 & 7.503 &	0.00079 \\
+							  & \textbf{Resíduos} 	&147 & 9.184	 & 0.0625	 &		 &  \\ \hline
+		\multirow{2}{*}{DTLZ2}& \textbf{Métodos} 	&2 & 5.836 & 2.9181 &  261.3& <2e-16 \\
+							  & \textbf{Resíduos} 	&147 & 1.642&  0.0112 	 &		 &  \\ \hline			  
+		\multirow{2}{*}{DTLZ7} & \textbf{Métodos}   &     2 & 2.247&  1.1234  & 6.231& 0.00253 \\
+							   & \textbf{Resíduos} 	&  147  & 26.501 & 0.1803 & &  \\ \bottomrule		
+								
+	\end{tabular}
+\end{table}
+
+É possível observar que para todos os problemas de teste o valor de $ Pr $ é menor que o nível de significância desejado, portanto pode-se afirmar com 95\% de confiança que existem diferenças no valor médio dos resultados dos métodos, o que implica na rejeição de $ H_0 $.
+
+\subsection{Teste de Tukey}
+
+\subsubsection*{Hipóteses}
+
+$ H_0: \bar{x}_{EC} = \bar{x}_{CP} $ (As médias dos resultados para $ \varepsilon $-restrito e  Distância a um objetivo de referência não diferem significativamente)
+
+$ H_1: \bar{x}_{WP} = \bar{x}_{EC} $ (As médias dos resultados para Soma Ponderada e $ \varepsilon $-restrito não diferem significativamente)
+
+$ H_2: \bar{x}_{WP} = \bar{x}_{CP} $ (As médias dos resultados para Soma Ponderada e Distância a um objetivo de referência não diferem significativamente)
+
+
+A Tabela \ref{tab:tukey} apresenta os resultados dos testes realizados para todos os problemas analisados. 
+
+\begin{table}[!htb]
+	\centering
+	\caption{Resultado do teste de múltiplas comparações de médias de Tukey.}
+	\label{tab:tukey}
+	\begin{tabular}{|llrrrr|}
+		\toprule
+	\textbf{Problema} 	&	\textbf{Método} & \multicolumn{1}{c}{\textbf{Diff}} & \multicolumn{1}{c}{\textbf{Lower}} & \multicolumn{1}{c}{\textbf{Upper}} & \multicolumn{1}{c}{\textbf{p-valor}} \\ \hline
+	\multirow{3}{*}{ZDT1}	& EC-CP &  0.0166054 & -0.01968789 &  0.10398809 & 0.5259234 \\
+							& WP-CP &  0.0843002 &  0.04800691 &  0.12059349 & 0.0000005 \\
+							& WP-EC &  0.0676948 &  0.03140151 &  0.10398809 & 0.0000573 \\ \hline
+	\multirow{3}{*}{ZDT3}	& EC-CP & -0.1478570 & -0.26621689 & -0.02949711 & 0.0100468 \\
+							& WP-CP &  0.0343640 & -0.08399589 &  0.15272389 & 0.7711978 \\
+							& WP-EC &  0.1822210 &  0.06386111 &  0.30058089 & 0.0010724 \\ \hline	
+	\multirow{3}{*}{DTLZ2}	& EC-CP &  0.00118 & -0.0488663 &  0.0512263 & 0.9982833 \\ 
+							& WP-CP & -0.41784 & -0.4678863 & -0.3677937 & 0.0000000 \\ 
+							& WP-EC & -0.41902 & -0.4690663 & -0.3689737 & 0.0000000 \\ \hline							
+	\multirow{3}{*}{DTLZ7}  & EC-CP &  0.29298 &  0.0919207867 & 0.4940392  & 0.0021013 \\ 
+							& WP-CP &  0.20148 &  0.0004207867 & 0.4025392  & 0.0493947 \\ 
+							& WP-EC & -0.09150 & -0.2925592133 & 0.1095592  & 0.5295122 \\ \bottomrule
+	
+	\end{tabular}
+\end{table}
+
+Analisando os dados para o problema ZDT1 rejeita-se as hipóteses $ H_1 $ e $ H_2 $, pois pode-se afirmar com 95\% de confiança que o método da Soma Ponderada possui em seus resultados diferenças significativas em comparação aos resultados dos métodos $ \varepsilon $-restrito e Distância a um Objetivo, pois o $ p-valor $ para ambos os testes ( WP-CP e WP-EC) foi inferior a 0.05. Esta análise corrobora as impressões obtidas na seção \ref{sec:desc-zdt1}.
+
+Quanto aos dados do problema ZDT3, rejeita-se as hipóteses $ H_0 $ e $ H_2 $ pois pode-se afirmar com 95\% de confiança que o método da $ \varepsilon $-restrito possui em seus resultados diferenças significativas em comparação aos resultados dos métodos Soma Ponderada e Distância a um Objetivo, pois o $ p-valor $ para ambos os testes ( EC-CP e WP-EC) foi inferior a 0.05. Esta análise corrobora as impressões obtidas na seção \ref{sec:desc-zdt3}.
+
+Para o problema DTLZ2 rejeita-se as hipóteses  $ H_1 $ e $ H_2 $ pois pode-se afirmar com 95\% de confiança que o método da Soma Ponderada possui em seus resultados diferenças significativas em comparação aos resultados dos métodos $ \varepsilon $-restrito e Distância a um Objetivo, pois o $ p-valor $ para ambos os testes ( WP-CP e WP-EC) foi inferior a 0.05. Esta análise corrobora as impressões obtidas na seção \ref{sec:desc-dtlz2}.
+
+Para o problema DTLZ7 rejeita-se as hipóteses  $ H_0 $ e $ H_1 $ pois pode-se afirmar com 95\% de confiança que o método da Distância a um Objetivo  possui em seus resultados diferenças significativas em comparação aos resultados dos métodos $ \varepsilon $-restrito e Soma Ponderada, pois o $ p-valor $ para ambos os testes (EC-CP e WP-CP) foi inferior a 0.05. Esta análise esclarece as impressões obtidas na seção \ref{sec:desc-dtlz7}.
+
+
+
+
+
+
+\begin{comment}
+\subsection{Problema ZDT1}
+
+\subsubsection{Análise de Variância}
+
+
+\textbf{Hipóteses}
+
+$ H_o$: Não existe diferença significativa entre os métodos. %\mu_{i} = \mu_{j}
+
+$ H_1$: Existem diferenças significativas entre os métodos. %: \mu_{i} \neq \mu_{j}  
+
+Significância desejada: $ \alpha=0.05$ .
+
+\begin{table}[H]
+\centering
+\caption{Análise de variância das médias encontradas para a função ZDT1}
+\label{tab:anova-zdt1}
+\begin{tabular}{|l|r|r|r|r|r|}
+\toprule
+& \multicolumn{1}{c}{\textbf{Df}} & \multicolumn{1}{c}{\textbf{Sum Sq}} & \multicolumn{1}{c}{\textbf{Mean Sq}} & \multicolumn{1}{c}{\textbf{F-value}} & \multicolumn{1}{c|}{\textbf{Pr(>F)}} \\ \hline
+\textbf{Métodos} & 2 & 0.1994 & 0.09971 & 16.97 & 2.33e-07 \\ \hline
+\textbf{Resíduos} & 147 & 0.8635 & 0.00587 &  & \\ \bottomrule
+\end{tabular}
+\end{table}
+
+O valor de $ Pr $ apresentado na tabela \ref{tab:anova-zdt1} é menor que o nível de significância desejado para o teste, portanto, pode-se afirmar com 95\% de confiança que existem diferenças no valor médio dos pontos encontrados pelos métodos avaliados, o que implica na rejeição da hipótese nula ($ H_o $).
+
+
+\subsubsection{Teste de Múltiplas Comparações de Médias de Tukey}
+
+Hipóteses
+
+$ H_0: \bar{x}_{WP} = \bar{x}_{EC} $ (As médias dos resultados para Soma Ponderada e $ \varepsilon $-restrito não diferem significativamente)
+
+$ H_1: \bar{x}_{WP} = \bar{x}_{CP} $ (As médias dos resultados para Soma Ponderada e Distância a um objetivo de referência não diferem significativamente)
+
+$ H_2: \bar{x}_{EC} = \bar{x}_{CP} $ (As médias dos resultados para Distância a um objetivo de referência  e $ \varepsilon $-restrito não diferem significativamente)
+
+
+A Tabela \ref{tab:tukey-zdt1} demonstra os resultados obtidos a partir da comparação entre os métodos, de forma a permitir as inferências sobre a média dos resultados obtidos.
+
+\begin{table}[!htb]
+\centering
+\caption{Resultado do teste de Tukey para o problema ZDT1}
+\label{tab:tukey-zdt1}
+\begin{tabular}{lrrrr}
+\textbf{Método} & \multicolumn{1}{c}{\textbf{Diff}} & \multicolumn{1}{c}{\textbf{Lower}} & \multicolumn{1}{c}{\textbf{Upper}} & \multicolumn{1}{c}{\textbf{p-valor}} \\
+\textbf{EC-CP} & 0.0166054 & -0.01968789 & 0.10398809 & 0.5259234 \\
+\textbf{WP-CP} & 0.0843002 & 0.04800691 & 0.12059349 & 0.0000005 \\
+\textbf{WP-EC} & \multicolumn{1}{l}{0.0676948} & \multicolumn{1}{l}{0.03140151} & \multicolumn{1}{l}{0.10398809} & \multicolumn{1}{l}{0.0000573}
+\end{tabular}
+\end{table}
+
+Comparando os resultados rejeitou-se $ H_0 e H_1 $ com 95\% de confiança, visto que o p-valor em  é inferior a 0.05. Portanto, há diferenças significativas entre o método da Soma Ponderada dos demais em função da média dos resultados obtidos.
+
+
+\subsection{Problema ZDT3}
+
+\subsubsection{Análise de Variância}
+
+
+\textbf{Hipóteses}
+
+$ H_o$: Não existe diferença significativa entre os métodos. %\mu_{i} = \mu_{j}
+
+$ H_1$: Existem diferenças significativas entre os métodos. %: \mu_{i} \neq \mu_{j}  
+
+Significância desejada: $ \alpha=0.05$ .
+
+\begin{table}[H]
+\centering
+\caption{Análise de variância das médias encontradas para a função ZDT3}
+\label{tab:anova-zdt3}
+\begin{tabular}{|l|r|r|r|r|r|}
+\toprule
+& \multicolumn{1}{c}{\textbf{Df}} & \multicolumn{1}{c}{\textbf{Sum Sq}} & \multicolumn{1}{c}{\textbf{Mean Sq}} & \multicolumn{1}{c}{\textbf{F-value}} & \multicolumn{1}{c|}{\textbf{Pr(>F)}} \\ \hline
+\textbf{Métodos} 	&2	 & 0.937	&  0.4687 	 & 7.503 &	0.00079 \\ \hline
+\textbf{Resíduos} 	&147 & 9.184	 & 0.0625	 &		 &  \\ \bottomrule
+\end{tabular}
+\end{table}
+
+O valor de $ Pr $ apresentado na tabela \ref{tab:anova-zdt3} é menor que o nível de significância desejado para o teste, portanto, pode-se afirmar com 95\% de confiança que existem diferenças no valor médio dos pontos encontrados pelos métodos avaliados, o que implica na rejeição da hipótese nula ($ H_o $).
+
+
+\subsubsection{Teste de Múltiplas Comparações de Médias de Tukey}
+
+\textbf{Hipóteses}
+
+$ H_0: \bar{x}_{WP} = \bar{x}_{EC} $ (As médias dos resultados para Soma Ponderada e $ \varepsilon $-restrito não diferem significativamente)
+
+$ H_1: \bar{x}_{WP} = \bar{x}_{CP} $ (As médias dos resultados para Soma Ponderada e Distância a um objetivo de referência não diferem significativamente)
+
+$ H_2: \bar{x}_{EC} = \bar{x}_{CP} $ (As médias dos resultados para Distância a um objetivo de referência  e $ \varepsilon $-restrito não diferem significativamente)
+
+
+A Tabela \ref{tab:tukey-zdt3} demonstra os resultados obtidos a partir da comparação entre os métodos, de forma a permitir as inferências sobre a média dos resultados obtidos.
+
+\begin{table}[!htb]
+\centering
+\caption{Resultado do teste de Tukey para o problema ZDT3}
+\label{tab:tukey-zdt3}
+\begin{tabular}{lrrrr}
+\textbf{Método} & \multicolumn{1}{c}{\textbf{Diff}} & \multicolumn{1}{c}{\textbf{Lower}} & \multicolumn{1}{c}{\textbf{Upper}} & \multicolumn{1}{c}{\textbf{p-valor}} \\
+\textbf{EC-CP} &  -0.147857 &-0.26621689& -0.02949711& 0.0100468\\ \hline
+\textbf{WP-CP} &   0.034364& -0.08399589&  0.15272389& 0.7711978\\ \hline
+\textbf{WP-EC} & 0.182221&  0.06386111&  0.30058089& 0.0010724 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+Comparando os resultados rejeitou-se $ H_0 e H_2 $ com 95\% de confiança, visto que o p-valor em  é inferior a 0.05. Portanto, há diferenças significativas entre o método $ \varepsilon $-restrito dos demais em função da média dos resultados obtidos.
+
+
+\subsection{Problema DTLZ2}
+
+\subsubsection{Análise de Variância}
+
+
+\textbf{Hipóteses}
+
+$ H_o$: Não existe diferença significativa entre os métodos. %\mu_{i} = \mu_{j}
+
+$ H_1$: Existem diferenças significativas entre os métodos. %: \mu_{i} \neq \mu_{j}  
+
+Significância desejada: $ \alpha=0.05$ .
+
+\begin{table}[H]
+\centering
+\caption{Análise de variância das médias encontradas para a função DTLZ2}
+\label{tab:anova-dtlz2}
+\begin{tabular}{|l|r|r|r|r|r|}
+\toprule
+& \multicolumn{1}{c}{\textbf{Df}} & \multicolumn{1}{c}{\textbf{Sum Sq}} & \multicolumn{1}{c}{\textbf{Mean Sq}} & \multicolumn{1}{c}{\textbf{F-value}} & \multicolumn{1}{c|}{\textbf{Pr(>F)}} \\ \hline
+\textbf{Métodos} 	&2 & 5.836 & 2.9181 &  261.3& <2e-16 \\ \hline
+\textbf{Resíduos} 	&147 & 1.642&  0.0112 	 &		 &  \\ \bottomrule
+\end{tabular}
+\end{table}
+
+O valor de $ Pr $ apresentado na tabela \ref{tab:anova-dtlz2} é menor que o nível de significância desejado para o teste, portanto, pode-se afirmar com 95\% de confiança que existem diferenças no valor médio dos pontos encontrados pelos métodos avaliados, o que implica na rejeição da hipótese nula ($ H_o $).
+
+
+\subsubsection{Teste de Múltiplas Comparações de Médias de Tukey}
+
+\textbf{Hipóteses}
+
+$ H_0: \bar{x}_{WP} = \bar{x}_{EC} $ (As médias dos resultados para Soma Ponderada e $ \varepsilon $-restrito não diferem significativamente)
+
+$ H_1: \bar{x}_{WP} = \bar{x}_{CP} $ (As médias dos resultados para Soma Ponderada e Distância a um objetivo de referência não diferem significativamente)
+
+$ H_2: \bar{x}_{EC} = \bar{x}_{CP} $ (As médias dos resultados para Distância a um objetivo de referência  e $ \varepsilon $-restrito não diferem significativamente)
+
+
+A Tabela \ref{tab:tukey-dtlz2} demonstra os resultados obtidos a partir da comparação entre os métodos, de forma a permitir as inferências sobre a média dos resultados obtidos.
+
+\begin{table}[!htb]
+\centering
+\caption{Resultado do teste de Tukey para o problema DTLZ2}
+\label{tab:tukey-dtlz2}
+\begin{tabular}{|l|r|r|r|r|}
+\toprule
+\textbf{Método} & \multicolumn{1}{c|}{\textbf{Diff}} & \multicolumn{1}{c|}{\textbf{Lower}} & \multicolumn{1}{c|}{\textbf{Upper}} & \multicolumn{1}{c|}{\textbf{p-valor}} \\
+EC-CP & 0.00118& -0.0488663&  0.0512263& 0.9982833\\ \hline
+WP-CP &-0.41784 &-0.4678863& -0.3677937& 0.0000000\\ \hline
+WP-EC &-0.41902& -0.4690663 &-0.3689737& 0.0000000\\ \bottomrule
+
+\end{tabular}
+\end{table}
+
+Comparando os resultados rejeitou-se $ H_1 e H_2 $ com 95\% de confiança, visto que o p-valor em  é inferior a 0.05. Portanto, há diferenças significativas entre o método da Soma Ponderada dos demais em função da média dos resultados obtidos.
+
+
+\subsection{Problema DTLZ7}
+
+\subsubsection{Análise de Variância}
+
+
+\textbf{Hipóteses}
+
+$ H_o$: Não existe diferença significativa entre os métodos. %\mu_{i} = \mu_{j}
+
+$ H_1$: Existem diferenças significativas entre os métodos. %: \mu_{i} \neq \mu_{j}  
+
+Significância desejada: $ \alpha=0.05$ .
+
+\begin{table}[H]
+\centering
+\caption{Análise de variância das médias encontradas para a função DTLZ7}
+\label{tab:anova-dtlz7}
+\begin{tabular}{|l|r|r|r|r|r|}
+\toprule
+& \multicolumn{1}{c}{\textbf{Df}} & \multicolumn{1}{c}{\textbf{Sum Sq}} & \multicolumn{1}{c}{\textbf{Mean Sq}} & \multicolumn{1}{c}{\textbf{F-value}} & \multicolumn{1}{c|}{\textbf{Pr(>F)}} \\ \hline
+\textbf{Métodos}   &     2 & 2.247&  1.1234  & 6.231& 0.00253 \\ \hline
+\textbf{Resíduos} 	&  147 &26.501 & 0.1803 & &  \\ \bottomrule
+\end{tabular}
+\end{table}
+
+O valor de $ Pr $ apresentado na tabela \ref{tab:anova-dtlz7} é menor que o nível de significância desejado para o teste, portanto, pode-se afirmar com 95\% de confiança que existem diferenças no valor médio dos pontos encontrados pelos métodos avaliados, o que implica na rejeição da hipótese nula ($ H_o $).
+
+
+\subsubsection{Teste de Múltiplas Comparações de Médias de Tukey}
+
+\textbf{Hipóteses}
+
+$ H_0: \bar{x}_{WP} = \bar{x}_{EC} $ (As médias dos resultados para Soma Ponderada e $ \varepsilon $-restrito não diferem significativamente)
+
+$ H_1: \bar{x}_{WP} = \bar{x}_{CP} $ (As médias dos resultados para Soma Ponderada e Distância a um objetivo de referência não diferem significativamente)
+
+$ H_2: \bar{x}_{EC} = \bar{x}_{CP} $ (As médias dos resultados para Distância a um objetivo de referência  e $ \varepsilon $-restrito não diferem significativamente)
+
+
+A Tabela \ref{tab:tukey-dtlz7} demonstra os resultados obtidos a partir da comparação entre os métodos, de forma a permitir as inferências sobre a média dos resultados obtidos.
+
+\begin{table}[!htb]
+\centering
+\caption{Resultado do teste de Tukey para o problema DTLZ7}
+\label{tab:tukey-dtlz7}
+\begin{tabular}{|l|r|r|r|r|}
+\toprule
+\textbf{Método} & \multicolumn{1}{c|}{\textbf{Diff}} & \multicolumn{1}{c|}{\textbf{Lower}} & \multicolumn{1}{c|}{\textbf{Upper}} & \multicolumn{1}{c|}{\textbf{p-valor}} \\
+EC-CP  &0.29298 & 0.0919207867& 0.4940392& 0.0021013\\ \hline
+WP-CP  &0.20148&  0.0004207867& 0.4025392& 0.0493947\\ \hline
+WP-EC &-0.09150& -0.2925592133 &0.1095592& 0.5295122\\ \bottomrule
+\end{tabular}
+\end{table}
+
+Comparando os resultados rejeitou-se $ H_1 e H_2 $ com 95\% de confiança, visto que o p-valor em  é inferior a 0.05. Portanto, há diferenças significativas entre o método da Distância a um Objetivo de referência dos demais em função da média dos resultados obtidos.
+\end{comment}
+
+
+

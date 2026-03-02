@@ -1,0 +1,165 @@
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+\begin{folhadeaprovacao}
+
+  	
+  	
+    \begin{center}
+        \includegraphics[width=1\textwidth]{imagens/unitins.png}
+        \ABNTEXchapterfont\Large   CURSO DE SISTEMAS DE INFORMA{\c{C}}{\~{A}}O
+        
+        \par
+        \vspace*{1cm}     
+        {\ABNTEXchapterfont\bfseries\large \expandafter\MakeUppercase{\imprimirtitulo}  \vspace*{1cm}    }
+        \par
+        {\large \expandafter\MakeUppercase{\imprimirautor}}
+        %\vspace*{\fill}
+        \par
+        \vspace*{1cm}     
+        \hspace{.45\textwidth}
+        \begin{minipage}{.5\textwidth}
+            \small\imprimirpreambulo
+            
+        \end{minipage}%
+    %	\vspace*{\fill}
+    \end{center}
+  
+        
+  
+   \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+   \assinatura{\textbf{Prof. Me. Leandra Cristina} \\Professora}
+   \assinatura{\textbf{Prof. Me. Marco Antonio Firmino} \\Professor }
+   %\assinatura{\textbf{Professor} \\ Convidado 3}
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+      
+   \begin{center}
+    \vspace*{0.5cm}
+    {\large\imprimirlocal}
+    \par
+    {\large\imprimirdata}
+    \vspace*{1cm}
+  \end{center}
+  
+\end{folhadeaprovacao}
+% ---
+
+% ---
+% Dedicatória
+% ---
+% \begin{dedicatoria}
+%    \vspace*{\fill}
+%    \centering
+%    \noindent
+%    \textit{ Este trabalho é dedicado à minha família, pelo apoio incondicional.} \vspace*{\fill}
+% \end{dedicatoria}
+% ---
+
+% ---
+% Agradecimentos
+% --- Es
+% ---
+
+% ---
+% Epígrafe
+% ---
+% ---
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+   % A metodologia Análise do Comportamento Aplicada (ABA) é amplamente utilizada por terapeutas no tratamento de indivíduos dentro do espectro autista, visando analisar e reforçar comportamentos desejados. No entanto, a tarefa de analisar, gerenciar pacientes e registrar anotações sobre eles pode ser aprimorada significativamente através da utilização de uma ferramenta dedicada para profissionais desta área. Este trabalho tem como objetivo apresentar uma proposta de interface que poderá ser implementada em futuras pesquisas. Será realizado um levantamento de requisitos para identificar quais funcionalidades são essenciais para essa solução. Posteriormente, a interface da aplicação será desenvolvida de acordo com os requisitos estabelecidos e princípios de design. O propósito deste trabalho é fornecer uma ferramenta simples para terapeutas, a fim de otimizar o acompanhamento de indivíduos com autismo e, assim, promover seu progresso de forma eficaz.
+
+   A metodologia Análise do Comportamento Aplicada (ABA) é amplamente utilizada por terapeutas no tratamento de indivíduos dentro do espectro autista, com o objetivo de analisar e reforçar comportamentos desejados. No entanto, esses profissionais enfrentam desafios relacionados à análise e gestão de pacientes, bem como ao registro sistemático de anotações. Além disso, os familiares também necessitam de um acompanhamento eficaz por parte dos terapeutas, a fim de contribuir para o desenvolvimento da criança. Esse processo, essencial para a aplicação do método ABA, pode ser aprimorado por meio de uma ferramenta tecnológica que facilite a organização das informações, reduza a ocorrência de erros e aumente a eficiência do tratamento. Além disso, a adoção de uma interface intuitiva pode fortalecer o envolvimento da família ao longo do processo terapêutico.
+
+    Este trabalho tem como objetivo apresentar uma proposta de interface que poderá ser implementada em futuras pesquisas. Para isso, será realizado um levantamento de requisitos a fim de identificar as funcionalidades essenciais para essa solução. Posteriormente, a interface da aplicação será desenvolvida com base nesses requisitos e em princípios de design. O propósito deste trabalho é fornecer uma ferramenta acessível tanto para terapeutas quanto para familiares, permitindo um acompanhamento mais eficiente dos indivíduos com autismo e, consequentemente, promovendo seu progresso de forma estruturada e eficaz.
+
+   % fim correção
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+    The Applied Behavior Analysis (ABA) methodology is widely used by therapists in the treatment of individuals on the autism spectrum, aiming to analyze and reinforce desired behaviors. However, these professionals face challenges in patient management and systematic note-taking. Additionally, family members require effective communication with therapists to support the child's development. This process, essential for the proper application of the ABA method, can be enhanced through a technological tool that facilitates information organization, reduces errors, and increases treatment efficiency. Furthermore, an intuitive interface can strengthen family engagement throughout the therapeutic process.
+
+    This study aims to present an interface proposal that can be implemented in future research. To achieve this, a requirements analysis will be conducted to identify the essential features of the solution. Subsequently, the application interface will be developed based on these requirements and design principles. The purpose of this work is to provide an accessible tool for both therapists and family members, enabling more efficient monitoring of individuals with autism and, consequently, promoting their structured and effective progress.
+ \end{otherlanguage*}
+\end{resumo}
+
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+% \newpage
+% \pdfbookmark[0]{\listtablename}{lot}
+% \newpage
+% \listoftables*
+% \cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+% \begin{siglas}
+  % \item POM - Problema de Otimização Multiobjetivo.
+  % \item $ \chi $ - Vetor de decisão.
+  % \item $ S $ - Espaço de busca.
+  % \item $ \Omega $- Conjunto factível
+  % \item $ \delta $- Conjunto imagem de $ \Omega $
+  % \item $ \textit{PF}^{*} $- Frente de Pareto Global
+  % \item $\textit{PF}^{'}$- Frente de Pareto Local 
+  % \item $ WP $- Método da Soma Ponderada
+  % \item $ EC $- Método $ \varepsilon $-restrito
+  % \item $ CP $- Método da distância a um objetivo de referência.
+  
+  
+% \end{siglas}
+% ---
+
+
+% ---
+% inserir o sumario
+% ---
+\cleardoublepage
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+

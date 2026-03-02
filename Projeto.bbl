@@ -1,0 +1,127 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Antunes e Alves 2012]{Antunes2012}
+\abntrefinfo{Antunes e Alves}{ANTUNES; ALVES}{2012}
+{ANTUNES, C.~H.; ALVES, M.~J. {Programa{\c{c}}{\~{a}}o Linear
+  Multiobjetivo-M{\'{e}}todos Interativos E Software}.
+\emph{Simp{\'{o}}sio Brasileiro de Pesquisa Operacional}, p. 4725--4736, 2012.}
+
+\bibitem[Artoni et al. 2018]{artoni2018technology}
+\abntrefinfo{Artoni et al.}{ARTONI et al.}{2018}
+{ARTONI, S. et al. Technology-enhanced aba intervention in children with
+  autism: a pilot study.
+\emph{Universal Access in the Information Society}, Springer, v.~17, p.
+  191--210, 2018.}
+
+\bibitem[Artoni et al. 2011]{artoni2011accessible}
+\abntrefinfo{Artoni et al.}{ARTONI et al.}{2011}
+{ARTONI, S. et al. Accessible education for autistic children: Aba-based
+  didactic software. In:  SPRINGER. \emph{Universal Access in Human-Computer
+  Interaction. Applications and Services: 6th International Conference, UAHCI
+  2011, Held as Part of HCI International 2011, Orlando, FL, USA, July 9-14,
+  2011, Proceedings, Part IV 6}. [S.l.], 2011. p. 511--520.}
+
+\bibitem[Artoni et al. 2012]{artoni2012designing}
+\abntrefinfo{Artoni et al.}{ARTONI et al.}{2012}
+{ARTONI, S. et al. Designing aba-based software for low-functioning autistic
+  children. In:  SPRINGER. \emph{Advances in New Technologies, Interactive
+  Interfaces and Communicability: Second International Conference, ADNTIIC
+  2011, Huerta Grande, Argentina, December 5-7, 2011, Revised Selected Papers
+  2}. [S.l.], 2012. p. 230--242.}
+
+\bibitem[Artoni et al. 2013]{artoni2013portable}
+\abntrefinfo{Artoni et al.}{ARTONI et al.}{2013}
+{ARTONI, S. et al. A portable application for supporting aba intervention.
+\emph{Journal of Assistive Technologies}, Emerald Group Publishing Limited,
+  v.~7, n.~2, p. 78--92, 2013.}
+
+\bibitem[Bordini et al. 2024]{bordini2024exploring}
+\abntrefinfo{Bordini et al.}{BORDINI et al.}{2024}
+{BORDINI, D. et al. Exploring the acquisition of social communication skills in
+  children with autism: Preliminary findings from applied behavior analysis
+  (aba), parent training, and video modeling.
+\emph{Brain Sciences}, MDPI, v.~14, n.~2, p.~172, 2024.}
+
+\bibitem[Bosa 2006]{bosa2006autismo}
+\abntrefinfo{Bosa}{BOSA}{2006}
+{BOSA, C.~A. Autismo: interven{\c{c}}{\~o}es psicoeducacionais.
+\emph{Brazilian Journal of Psychiatry}, SciELO Brasil, v.~28, p. s47--s53,
+  2006.}
+
+\bibitem[Casula, Rangarajan e Shields 2021]{casula2021potential}
+\abntrefinfo{Casula, Rangarajan e Shields}{CASULA; RANGARAJAN; SHIELDS}{2021}
+{CASULA, M. et al. The potential of working hypotheses for deductive
+  exploratory research.
+\emph{Quality \& Quantity}, Springer, v.~55, n.~5, p. 1703--1725, 2021.}
+
+\bibitem[Fitch 2023]{fitch2023cdc}
+\abntrefinfo{Fitch}{FITCH}{2023}
+{FITCH, J. Cdc says the pandemic has disrupted early autism detection.
+\emph{Contemporary Pediatrics}, Intellisphere, LLC, v.~40, n.~4, p. 20--21,
+  2023.}
+
+\bibitem[Frost 2016]{frost2016atomic}
+\abntrefinfo{Frost}{FROST}{2016}
+{FROST, B. \emph{Atomic design}. [S.l.]: Brad Frost Pittsburgh, 2016.}
+
+\bibitem[Koleoso e Tayo 2020]{koleoso2020welcome}
+\abntrefinfo{Koleoso e Tayo}{KOLEOSO; TAYO}{2020}
+{KOLEOSO; TAYO. Welcome to quarkus.
+\emph{Beginning Quarkus Framework: Build Cloud-Native Enterprise Java
+  Applications and Microservices}, Springer, p. 1--19, 2020.}
+
+\bibitem[London 2007]{london2007role}
+\abntrefinfo{London}{LONDON}{2007}
+{LONDON, E. The role of the neurobiologist in redefining the diagnosis of
+  autism.
+\emph{Brain pathology}, Wiley Online Library, v.~17, n.~4, p. 408--411, 2007.}
+
+\bibitem[Maurice, Green e Luce 1996]{maurice1996behavioral}
+\abntrefinfo{Maurice, Green e Luce}{MAURICE; GREEN; LUCE}{1996}
+{MAURICE, C.~E. et al. \emph{Behavioral intervention for young children with
+  autism: A manual for parents and professionals.} [S.l.]: Pro-ed, 1996.}
+
+\bibitem[Neto 2007]{neto2007introduccao}
+\abntrefinfo{Neto}{NETO}{2007}
+{NETO, A. Introdu{\c{c}}{\~a}o a teste de software.
+\emph{Engenharia de Software Magazine}, v.~1, p.~22, 2007.}
+
+\bibitem[Rodriguez 2008]{rodriguez2008restful}
+\abntrefinfo{Rodriguez}{RODRIGUEZ}{2008}
+{RODRIGUEZ, A. Restful web services: The basics.
+\emph{IBM developerWorks}, v.~33, n.~2008, p.~18, 2008.}
+
+\bibitem[Seemann e Deursen 2019]{seemann2019dependency}
+\abntrefinfo{Seemann e Deursen}{SEEMANN; DEURSEN}{2019}
+{SEEMANN, M.; DEURSEN, S. van. \emph{Dependency Injection Principles,
+  Practices, and Patterns}. [S.l.]: Simon and Schuster, 2019.}
+
+\bibitem[Seiford 2007]{seiford2007perceived}
+\abntrefinfo{Seiford}{SEIFORD}{2007}
+{SEIFORD, L.~C.
+\emph{The perceived impact of the ABA and TEACCH approaches on the functional
+  learning of children diagnosed with autism spectrum disorder}.
+Tese (Doutorado) --- Capella University, 2007.}
+
+\bibitem[Treffert 2009]{treffert2009savant}
+\abntrefinfo{Treffert}{TREFFERT}{2009}
+{TREFFERT, D.~A. The savant syndrome: an extraordinary condition. a synopsis:
+  past, present, future.
+\emph{Philosophical Transactions of the Royal Society B: Biological Sciences},
+  The Royal Society London, v.~364, n.~1522, p. 1351--1357, 2009.}
+
+\bibitem[Viana et al. 2020]{viana2020autismo}
+\abntrefinfo{Viana et al.}{VIANA et al.}{2020}
+{VIANA, A. C.~V. et al. Autismo: uma revis{\~a}o integrativa.
+\emph{Sa{\'u}de Din{\^a}mica}, v.~2, n.~3, p. 1--18, 2020.}
+
+\bibitem[Windmill 2020]{windmill2020flutter}
+\abntrefinfo{Windmill}{WINDMILL}{2020}
+{WINDMILL, E. \emph{Flutter in action}. [S.l.]: Simon and Schuster, 2020.}
+
+\end{thebibliography}

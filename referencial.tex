@@ -1,0 +1,101 @@
+% ---
+% Capitulo de revisão de literatura
+% ---
+\begin{comment}
+Definição de problemas multiobjetivo
+O que é;
+O que são métodos escalares e porque são usados
+Funções de Benchmark
+Funções --- 
+
+\end{comment}
+
+\chapter{Referencial Teórico}\label{cap:referencial_teorico}
+
+Neste capítulo, serão apresentados conceitos fundamentais essenciais para o desenvolvimento do software proposto neste documento. A compreensão desses conceitos é crucial para embasar e contextualizar a elaboração e funcionalidades do software em questão.
+
+\section{Transtorno do espectro autista (TEA)}
+
+O TEA é um distúrbio que afeta a comunicação social, dificultando o aprendizado em certos assuntos, além de resultar em comportamentos repetitivos e restritivos \cite{bordini2024exploring}. Geralmente, os sintomas do autismo são perceptíveis antes dos três anos de idade. Além das dificuldades na comunicação, comportamento e interações sociais, em alguns casos, indivíduos com autismo podem apresentar padrões alimentares atípicos \cite{london2007role}, bem como habilidades excepcionais de memória e compreensão em determinadas áreas \cite{treffert2009savant}.
+
+É crucial que o tratamento de uma criança com TEA seja iniciado o mais precocemente possível \cite{bosa2006autismo}. Existem duas abordagens para esse tratamento: ABA (Análise de Comportamento Aplicado) e TEACCH (Tratamento e Educação para Autistas e com Deficiências na Comunicação Relacionadas), esta última direcionada às necessidades individuais, pontos fortes e interesses específicos da criança com TEA \cite{seiford2007perceived}.
+
+\section{Análise de Comportamento aplicados}\label{otimizacao}
+
+O \textit{Applied Behavior Analysis} (ABA) é uma abordagem terapêutica que envolve um terapeuta e um paciente, sentados em lados opostos de uma mesa. Durante as sessões de ABA, o terapeuta apresenta uma condição ou estímulo (entrada), enquanto o paciente responde com um comportamento específico (saída) \cite{artoni2011accessible}.
+
+Se o comportamento do paciente é considerado adequado e alinhado com os objetivos terapêuticos, o terapeuta recompensa o paciente com um reforço positivo. Isso pode incluir atividades como cantar uma canção, comemorar o sucesso ou fornecer um brinquedo que seja especialmente gratificante para a criança \cite{artoni2018technology}.
+
+No entanto, se o comportamento do paciente não atende aos critérios estabelecidos, o terapeuta intervém, aplicando outras condições ou estratégias terapêuticas para auxiliar o paciente a desenvolver comportamentos mais apropriados e desejados \cite{artoni2011accessible}.
+
+Além do ABA, existem outros métodos amplamente conhecidos, como o PECS (\textit{Picture Exchange Communication System}) e o TEACCH (\textit{Treatment and Education of Autistic and related Communication-handicapped Children}). O PECS é um método simples que utiliza imagens para estabelecer uma comunicação funcional, principalmente voltado para autistas não verbais. Já a estratégia TEACCH é aplicada com foco na adaptação, comunicação e organização da criança. Enquanto isso, o ABA concentra-se mais no comportamento e na aprendizagem geral da criança \cite{viana2020autismo}.
+
+\section{Treino por Tentativas Discretas}
+
+O \textit{Discrete Trial Training} (DTT), também conhecido como Treinamento por Tentativas Discretas, é uma técnica de ensino amplamente empregada no âmbito da Análise do Comportamento Aplicada (ABA), especialmente no tratamento de indivíduos com TEA. No DTT, uma série de provas, treinos e atividades são estruturados de forma a permitir que a criança aprenda por meio de um processo de tentativa e erro organizado e focado \cite{artoni2012designing}.
+
+No DTT, o estímulo pode ser um cartão (\textit{card} regularmente feito a mão) ou um brinquedo, nos quais o terapeuta apresenta um comando específico. Quando a criança realiza o comportamento desejado em resposta ao comando, o terapeuta aplica um reforço, recompensando a criança por sua resposta positiva \cite{artoni2011accessible}.
+
+\section{Programas do Treino por Tentativas Discretas}
+
+Cada indivíduo com TEA requer abordagens terapêuticas personalizadas, e os terapeutas podem escolher entre diferentes programas terapêuticos, que incluem:
+
+\begin{itemize}
+    \item \textbf{\textit{Matching} (Correspondência - Imagem para Imagem):}
+     Nesse programa, um conjunto de estímulos visuais é apresentado, e ao paciente é fornecido um estímulo idêntico ou correspondente a um dos apresentados anteriormente. Um comando é emitido, e espera-se que o paciente mova o estímulo fornecido para a posição correspondente na mesa\cite{artoni2013portable}.
+
+    \item \textbf{\textit{Receptive} (Receptivo - Palavra para Imagem):} Neste esquema, um conjunto de estímulos é apresentado, e o terapeuta emite um comando, como por exemplo, 'Toque na maçã'. O paciente é instruído a selecionar o estímulo correspondente à palavra indicada. Esse programa tem por objetivo aprimorar a compreensão de comandos verbais e a habilidade de associar palavras a objetos ou imagens \cite{Antunes2012}.
+
+    \item \textbf{\textit{Expressive} (Expressivo - Imagem para Palavra): } Neste módulo, o terapeuta aponta para um estímulo e emite um comando, como por exemplo, 'Diga o nome'. O paciente é encorajado a verbalizar o nome do objeto representado no estímulo. Esse programa tem por objetivo melhorar as habilidades expressivas e de comunicação verbal do paciente \cite{artoni2011accessible}.
+\end{itemize}
+
+\section{Níveis de Dificuldade nos Treinos do DTT}
+
+À medida que o tratamento avança, o indivíduo passa por uma progressão de níveis de dificuldade. Cada um desses níveis adota uma abordagem distinta e abarca uma variedade de cenários de erro, com o intuito de aprimorar continuamente as habilidades terapêuticas. Nesta seção, são apresentadas informações detalhadas sobre cada um desses níveis de dificuldade \cite{artoni2011accessible}.
+
+\begin{itemize}
+    \item \textbf{Treino em massa:} Este nível concentra-se em um único estímulo para assegurar o sucesso da criança. Caso a criança execute a ação desejada, o terapeuta pode intervir, movendo a mão da criança para a ação necessária ou fornecendo uma sugestão.
+    
+    \item \textbf{Fase de distração:} Aqui, são introduzidos estímulos adicionais para cenários de erro. Inicialmente, são apresentados estímulos neutros, seguidos por estímulos não neutros, os quais podem ser mais chamativos ou distrativos.
+
+    \item \textbf{Treino estendido:} Neste estágio, os estímulos usados nos cenários de erro são aqueles previamente dominados pelo paciente, promovendo um desafio adicional para consolidar as habilidades aprendidas.
+
+    \item \textbf{Rotação aleatória:}  Em caso de erro, a intervenção não se baseia em dicas. Nos cenários de acerto, o paciente é reforçado positivamente. Em ambos os cenários, os estímulos são embaralhados e novos estímulos são introduzidos de maneira aleatória na mesa.
+\end{itemize}
+
+\section{Trabalhos Relacionados}
+
+Na literatura, existem textos que propõem softwares para abordar desafios associados ao método ABA, como ilustrado em trabalhos de Artoni mencionados na tabela \ref{tab:trabalhos-relacionados}.
+
+\begin{table}[h]
+    \caption{Trabalhos Relacionados}
+    \centering
+    \begin{tabular}{|p{4cm}|p{3.40cm}|p{3.40cm}|p{3.40cm}|}
+    \hline
+    \textbf{Descrição} & \textbf{Vantagens} & \textbf{Desvantagens} & \textbf{Semelhanças} \\
+    \hline
+        Desenvolvimento de um \textit{software} para auxiliar no aprendizado de comunicação alternativa de crianças com autismo \cite{artoni2011accessible}. 
+        &
+        Um \textit{software} voltado principalmente para comunicação é mais especifico no que é proposto.
+        &
+        Requer treinamento ou familiarização com o sistema para garantir seu uso adequado.
+        &
+        É um \textit{software} planejado para uma área específica do ABA e todas as funcionalidades voltadas para ela.
+        \\
+    \hline
+        Criação de uma interface \textit{web} baseada em DTT para o ensino de formas, cores e números em terapias \cite{artoni2012designing}. &
+        Facilidade de acesso e autonomia da criança ao realizar os treinos. &
+        Acessar e interagir com uma página \textit{web} envolve um processo mais complexo em comparação à interação direta com um aplicativo. &
+        É um \textit{software} voltado para DTT onde visa o ensino da criança por meio de treinos. \\
+    \hline
+        Aplicativo \textit{mobile} para anotações rápidas, visando o método ABA \cite{artoni2013portable}. &
+        Anotação de forma rápida e compartilhada com a família. &
+        Sistema exclusivamente voltado para anotações, sem qualquer interação direta com os pacientes. &
+        \textit{Software} voltado à coleta de dados durante as sessões de terapia. \\
+    \hline
+    \end{tabular}
+    \label{tab:trabalhos-relacionados}
+    {
+        Fonte: Elaborada pelo autor
+    }
+\end{table}
