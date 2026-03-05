@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.26)  2 MAR 2026 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.26)  3 MAR 2026 19:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1470,7 +1470,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 37.
-<imagens/Atomic_design.png, id=261, 1027.84pt x 770.88pt>
+<imagens/Atomic_design.png, id=263, 1027.84pt x 770.88pt>
 File: imagens/Atomic_design.png Graphic file (type png)
 <use imagens/Atomic_design.png>
 Package pdftex.def Info: imagens/Atomic_design.png  used on input line 44.
@@ -1480,117 +1480,120 @@ Package pdftex.def Info: imagens/Atomic_design.png  used on input line 44.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14] [15 <./imagens/Atomic_design.png>]
-<imagens/Diagrama do terapeuta.drawio.png, id=288, 738.76pt x 342.27875pt>
+<imagens/Diagrama do terapeuta.drawio.png, id=290, 738.76pt x 342.27875pt>
 File: imagens/Diagrama do terapeuta.drawio.png Graphic file (type png)
 <use imagens/Diagrama do terapeuta.drawio.png>
 Package pdftex.def Info: imagens/Diagrama do terapeuta.drawio.png  used on input line 78.
 (pdftex.def)             Requested size: 369.37909pt x 171.13895pt.
  [16 <./imagens/Diagrama do terapeuta.drawio.png>]
-<imagens/Diagrama do Usuário.drawio.png, id=296, 738.76pt x 342.27875pt>
+<imagens/Diagrama do Usuário.drawio.png, id=298, 738.76pt x 342.27875pt>
 File: imagens/Diagrama do Usuário.drawio.png Graphic file (type png)
 <use imagens/Diagrama do Usuário.drawio.png>
 Package pdftex.def Info: imagens/Diagrama do Usuário.drawio.png  used on input line 92.
 (pdftex.def)             Requested size: 369.37909pt x 171.13895pt.
-<imagens/Joao.png, id=299, 383.93437pt x 177.66376pt>
+<imagens/Joao.png, id=301, 383.93437pt x 177.66376pt>
 File: imagens/Joao.png Graphic file (type png)
 <use imagens/Joao.png>
 Package pdftex.def Info: imagens/Joao.png  used on input line 111.
 (pdftex.def)             Requested size: 383.93343pt x 177.66331pt.
-<imagens/Maria.png, id=300, 393.72093pt x 191.21437pt>
+<imagens/Maria.png, id=302, 393.72093pt x 191.21437pt>
 File: imagens/Maria.png Graphic file (type png)
 <use imagens/Maria.png>
 Package pdftex.def Info: imagens/Maria.png  used on input line 122.
 (pdftex.def)             Requested size: 393.71997pt x 191.2139pt.
  [17 <./imagens/Diagrama do Usuário.drawio.png>]
-<imagens/Fluxo de navegação.png, id=307, 1032.85875pt x 573.14125pt>
+<imagens/Fluxo de navegação.png, id=309, 1032.85875pt x 573.14125pt>
 File: imagens/Fluxo de navegação.png Graphic file (type png)
 <use imagens/Fluxo de navegação.png>
 Package pdftex.def Info: imagens/Fluxo de navegação.png  used on input line 137.
 (pdftex.def)             Requested size: 413.13618pt x 229.25243pt.
  [18 <./imagens/Joao.png> <./imagens/Maria.png>] [19 <./imagens/Fluxo de navegação.png>]
-<imagens/LoginPage.png, id=322, 260.975pt x 501.875pt>
+<imagens/LoginPage.png, id=324, 260.975pt x 501.875pt>
 File: imagens/LoginPage.png Graphic file (type png)
 <use imagens/LoginPage.png>
-Package pdftex.def Info: imagens/LoginPage.png  used on input line 199.
+Package pdftex.def Info: imagens/LoginPage.png  used on input line 209.
 (pdftex.def)             Requested size: 130.48718pt x 250.93687pt.
-<imagens/RegisterPage.png, id=323, 260.975pt x 501.875pt>
+<imagens/RegisterPage.png, id=325, 260.975pt x 501.875pt>
 File: imagens/RegisterPage.png Graphic file (type png)
 <use imagens/RegisterPage.png>
-Package pdftex.def Info: imagens/RegisterPage.png  used on input line 208.
+Package pdftex.def Info: imagens/RegisterPage.png  used on input line 218.
 (pdftex.def)             Requested size: 130.48718pt x 250.93687pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 196--214
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 206--224
 [][] [] 
  []
 
-<imagens/HomePage.png, id=325, 260.975pt x 501.875pt>
+<imagens/HomePage.png, id=327, 260.975pt x 501.875pt>
 File: imagens/HomePage.png Graphic file (type png)
 <use imagens/HomePage.png>
-Package pdftex.def Info: imagens/HomePage.png  used on input line 222.
+Package pdftex.def Info: imagens/HomePage.png  used on input line 232.
 (pdftex.def)             Requested size: 130.48718pt x 250.93687pt.
-[20] [21 <./imagens/LoginPage.png> <./imagens/RegisterPage.png> <./imagens/HomePage.png>]
-<imagens/PatientsPage.png, id=339, 260.975pt x 501.875pt>
+[20]
+<imagens/PatientsPage.png, id=334, 260.975pt x 501.875pt>
 File: imagens/PatientsPage.png Graphic file (type png)
 <use imagens/PatientsPage.png>
-Package pdftex.def Info: imagens/PatientsPage.png  used on input line 241.
+Package pdftex.def Info: imagens/PatientsPage.png  used on input line 251.
 (pdftex.def)             Requested size: 130.48718pt x 250.93687pt.
-<imagens/PatientsModal.png, id=340, 260.975pt x 501.875pt>
+<imagens/PatientsModal.png, id=335, 260.975pt x 501.875pt>
 File: imagens/PatientsModal.png Graphic file (type png)
 <use imagens/PatientsModal.png>
-Package pdftex.def Info: imagens/PatientsModal.png  used on input line 250.
+Package pdftex.def Info: imagens/PatientsModal.png  used on input line 260.
 (pdftex.def)             Requested size: 130.48718pt x 250.93687pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 238--256
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 248--266
 [][] [] 
  []
 
-<imagens/PatientDetail.png, id=344, 260.975pt x 501.875pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagens/PatientDetail.png, id=339, 260.975pt x 501.875pt>
 File: imagens/PatientDetail.png Graphic file (type png)
 <use imagens/PatientDetail.png>
-Package pdftex.def Info: imagens/PatientDetail.png  used on input line 265.
+Package pdftex.def Info: imagens/PatientDetail.png  used on input line 275.
 (pdftex.def)             Requested size: 156.5862pt x 301.12732pt.
-<imagens/PatientDetailExpanded.png, id=345, 260.975pt x 501.875pt>
+<imagens/PatientDetailExpanded.png, id=340, 260.975pt x 501.875pt>
 File: imagens/PatientDetailExpanded.png Graphic file (type png)
 <use imagens/PatientDetailExpanded.png>
-Package pdftex.def Info: imagens/PatientDetailExpanded.png  used on input line 274.
+Package pdftex.def Info: imagens/PatientDetailExpanded.png  used on input line 284.
 (pdftex.def)             Requested size: 156.5862pt x 301.12732pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 262--280
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 272--290
 [][] [] 
  []
 
-<imagens/PatientFilter.png, id=346, 260.975pt x 501.875pt>
+<imagens/PatientFilter.png, id=341, 260.975pt x 501.875pt>
 File: imagens/PatientFilter.png Graphic file (type png)
 <use imagens/PatientFilter.png>
-Package pdftex.def Info: imagens/PatientFilter.png  used on input line 286.
+Package pdftex.def Info: imagens/PatientFilter.png  used on input line 296.
 (pdftex.def)             Requested size: 156.5862pt x 301.12732pt.
-<imagens/Table.png, id=347, 501.875pt x 260.975pt>
+<imagens/Table.png, id=342, 501.875pt x 260.975pt>
 File: imagens/Table.png Graphic file (type png)
 <use imagens/Table.png>
-Package pdftex.def Info: imagens/Table.png  used on input line 299.
+Package pdftex.def Info: imagens/Table.png  used on input line 309.
 (pdftex.def)             Requested size: 351.31009pt x 182.68126pt.
-<imagens/TextEditor.png, id=348, 501.875pt x 260.975pt>
+<imagens/TextEditor.png, id=343, 501.875pt x 260.975pt>
 File: imagens/TextEditor.png Graphic file (type png)
 <use imagens/TextEditor.png>
-Package pdftex.def Info: imagens/TextEditor.png  used on input line 300.
+Package pdftex.def Info: imagens/TextEditor.png  used on input line 310.
 (pdftex.def)             Requested size: 351.31009pt x 182.68126pt.
-[22 <./imagens/PatientsPage.png> <./imagens/PatientsModal.png>]
-<imagens/TrainingMathing.png, id=355, 501.875pt x 260.975pt>
+[21] [22 <./imagens/LoginPage.png> <./imagens/RegisterPage.png> <./imagens/HomePage.png>]
+<imagens/TrainingMathing.png, id=356, 501.875pt x 260.975pt>
 File: imagens/TrainingMathing.png Graphic file (type png)
 <use imagens/TrainingMathing.png>
-Package pdftex.def Info: imagens/TrainingMathing.png  used on input line 318.
+Package pdftex.def Info: imagens/TrainingMathing.png  used on input line 328.
 (pdftex.def)             Requested size: 301.12732pt x 156.5862pt.
-<imagens/TrainingReceptive.png, id=357, 501.875pt x 260.975pt>
+<imagens/TrainingReceptive.png, id=358, 501.875pt x 260.975pt>
 File: imagens/TrainingReceptive.png Graphic file (type png)
 <use imagens/TrainingReceptive.png>
-Package pdftex.def Info: imagens/TrainingReceptive.png  used on input line 332.
+Package pdftex.def Info: imagens/TrainingReceptive.png  used on input line 342.
 (pdftex.def)             Requested size: 301.12732pt x 156.5862pt.
-<imagens/TrainingExprecive.png, id=359, 501.875pt x 260.975pt>
+<imagens/TrainingExprecive.png, id=360, 501.875pt x 260.975pt>
 File: imagens/TrainingExprecive.png Graphic file (type png)
 <use imagens/TrainingExprecive.png>
-Package pdftex.def Info: imagens/TrainingExprecive.png  used on input line 345.
+Package pdftex.def Info: imagens/TrainingExprecive.png  used on input line 355.
 (pdftex.def)             Requested size: 301.12732pt x 156.5862pt.
-) [23] [24 <./imagens/PatientDetail.png> <./imagens/PatientDetailExpanded.png> <./imagens/PatientFilter.png>] [25 <./imagens/Table.png> <./imagens/TextEditor.png> <./imagens/TrainingMathing.png>] [26 <./imagens/TrainingReceptive.png> <./imagens/TrainingExprecive.png>]
+) [23 <./imagens/PatientsPage.png> <./imagens/PatientsModal.png>] [24 <./imagens/PatientDetail.png> <./imagens/PatientDetailExpanded.png> <./imagens/PatientFilter.png>] [25 <./imagens/Table.png> <./imagens/TextEditor.png> <./imagens/TrainingMathing.png>] [26 <./imagens/TrainingReceptive.png> <./imagens/TrainingExprecive.png>]
 \openout2 = `c_resultados.aux'.
 
  (./c_resultados.tex [27
@@ -1623,18 +1626,18 @@ AED: lastpage setting LastPage
 
  (./Projeto.aux (./pre_textuais.aux) (./c_introducao.aux) (./referencial.aux) (./c_metodologia.aux) (./c_resultados.aux) (./c_conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 44256 strings out of 478287
- 961601 string characters out of 5849289
- 1441133 words of memory out of 5000000
- 61317 multiletter control sequences out of 15000+600000
+ 44258 strings out of 478287
+ 961618 string characters out of 5849289
+ 1442133 words of memory out of 5000000
+ 61318 multiletter control sequences out of 15000+600000
  561660 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,11n,104p,1052b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Projeto.pdf (32 pages, 1323747 bytes).
+Output written on Projeto.pdf (32 pages, 1325308 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
- 496 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 51585 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 604 PDF objects out of 1000 (max. 8388607)
+ 501 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 51593 words of extra memory for PDF output out of 51595 (max. 10000000)
 

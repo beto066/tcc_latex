@@ -31,6 +31,7 @@
 \contentsline {section}{\numberline {4.1}Levantamento Bibliográfico}{27}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Levantamento de Funcionalidades}{27}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Proposta do layout}{28}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Simulação de Uso com Dados Fictícios}{28}{section.4.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{29}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Trabalhos Futuros}{29}{section.5.1}%
