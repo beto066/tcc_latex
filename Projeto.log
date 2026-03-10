@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.26)  9 MAR 2026 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.26)  10 MAR 2026 13:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1268,6 +1268,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 9.
  [1
 
 
@@ -1351,7 +1353,7 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 33.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 65.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )) [8]
@@ -1363,97 +1365,97 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 []|\T1/lmr/m/n/12 (+20) Desenvolvimento de
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 140--141
+Underfull \hbox (badness 1642) in paragraph at lines 141--142
 \T1/lmr/m/n/12 (+20) co-mu-ni-ca-��o al-ter-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []|\T1/lmr/m/n/12 (+20) Um \T1/lmr/m/it/12 (+20) soft-ware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 \T1/lmr/m/n/12 (+20) vol-tado prin-ci-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 \T1/lmr/m/n/12 (+20) pal-mente para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 \T1/lmr/m/n/12 (+20) co-mu-ni-ca-��o �
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 []|\T1/lmr/m/n/12 (+20) Requer trei-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 \T1/lmr/m/n/12 (+20) mento ou fa-mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 \T1/lmr/m/n/12 (+20) li-a-ri-za-��o com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 \T1/lmr/m/n/12 (+20) o sis-tema para
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 144--145
+Underfull \hbox (badness 3815) in paragraph at lines 145--146
 \T1/lmr/m/n/12 (+20) ga-ran-tir seu uso
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 146--148
+Underfull \hbox (badness 1082) in paragraph at lines 147--149
 \T1/lmr/m/n/12 (+20) ne-jado para uma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []|\T1/lmr/m/n/12 (+20) Facilidade de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 \T1/lmr/m/n/12 (+20) da cri-an�a ao
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 151--151
+Underfull \hbox (badness 2744) in paragraph at lines 152--152
 []|\T1/lmr/m/n/12 (+20) Acessar e in-te-ra-
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 151--151
+Underfull \hbox (badness 1348) in paragraph at lines 152--152
 \T1/lmr/m/n/12 (+20) gina \T1/lmr/m/it/12 (+20) web \T1/lmr/m/n/12 (+20) en-volve
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 152--153
+Underfull \hbox (badness 7133) in paragraph at lines 153--154
 \T1/lmr/m/n/12 (+20) tado para DTT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \T1/lmr/m/n/12 (+20) ano-ta-��es, sem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \T1/lmr/m/n/12 (+20) di-reta com os
  []
 
@@ -1470,13 +1472,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 76.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 75.
+(Font)              <5> on input line 76.
 <imagens/Atomic_design.png, id=266, 1027.84pt x 770.88pt>
 File: imagens/Atomic_design.png Graphic file (type png)
 <use imagens/Atomic_design.png>
-Package pdftex.def Info: imagens/Atomic_design.png  used on input line 82.
+Package pdftex.def Info: imagens/Atomic_design.png  used on input line 83.
 (pdftex.def)             Requested size: 411.12872pt x 308.34654pt.
 
 
@@ -1484,121 +1486,121 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14] [15 <./imagens/Atomic_design.png>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 128.
-<imagens/Diagrama do terapeuta.drawio.png, id=293, 738.76pt x 342.27875pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 129.
+<imagens/Diagrama do terapeuta.drawio.png, id=294, 738.76pt x 342.27875pt>
 File: imagens/Diagrama do terapeuta.drawio.png Graphic file (type png)
 <use imagens/Diagrama do terapeuta.drawio.png>
-Package pdftex.def Info: imagens/Diagrama do terapeuta.drawio.png  used on input line 156.
+Package pdftex.def Info: imagens/Diagrama do terapeuta.drawio.png  used on input line 157.
 (pdftex.def)             Requested size: 369.37909pt x 171.13895pt.
  [16 <./imagens/Diagrama do terapeuta.drawio.png>]
-<imagens/Diagrama do Usuário.drawio.png, id=302, 738.76pt x 342.27875pt>
+<imagens/Diagrama do Usuário.drawio.png, id=303, 738.76pt x 342.27875pt>
 File: imagens/Diagrama do Usuário.drawio.png Graphic file (type png)
 <use imagens/Diagrama do Usuário.drawio.png>
-Package pdftex.def Info: imagens/Diagrama do Usuário.drawio.png  used on input line 173.
+Package pdftex.def Info: imagens/Diagrama do Usuário.drawio.png  used on input line 174.
 (pdftex.def)             Requested size: 369.37909pt x 171.13895pt.
-<imagens/Joao.png, id=305, 383.93437pt x 177.66376pt>
+<imagens/Joao.png, id=306, 383.93437pt x 177.66376pt>
 File: imagens/Joao.png Graphic file (type png)
 <use imagens/Joao.png>
-Package pdftex.def Info: imagens/Joao.png  used on input line 203.
+Package pdftex.def Info: imagens/Joao.png  used on input line 204.
 (pdftex.def)             Requested size: 383.93343pt x 177.66331pt.
-<imagens/Maria.png, id=306, 393.72093pt x 191.21437pt>
+<imagens/Maria.png, id=307, 393.72093pt x 191.21437pt>
 File: imagens/Maria.png Graphic file (type png)
 <use imagens/Maria.png>
-Package pdftex.def Info: imagens/Maria.png  used on input line 217.
+Package pdftex.def Info: imagens/Maria.png  used on input line 218.
 (pdftex.def)             Requested size: 393.71997pt x 191.2139pt.
  [17 <./imagens/Diagrama do Usuário.drawio.png>]
-<imagens/Fluxo de navegação.png, id=313, 1032.85875pt x 573.14125pt>
+<imagens/Fluxo de navegação.png, id=314, 1032.85875pt x 573.14125pt>
 File: imagens/Fluxo de navegação.png Graphic file (type png)
 <use imagens/Fluxo de navegação.png>
-Package pdftex.def Info: imagens/Fluxo de navegação.png  used on input line 240.
+Package pdftex.def Info: imagens/Fluxo de navegação.png  used on input line 241.
 (pdftex.def)             Requested size: 413.13618pt x 229.25243pt.
  [18 <./imagens/Joao.png> <./imagens/Maria.png>] [19 <./imagens/Fluxo de navegação.png>] [20]
-<imagens/LoginPage.png, id=332, 506.89375pt x 951.555pt>
+<imagens/LoginPage.png, id=333, 506.89375pt x 951.555pt>
 File: imagens/LoginPage.png Graphic file (type png)
 <use imagens/LoginPage.png>
-Package pdftex.def Info: imagens/LoginPage.png  used on input line 347.
+Package pdftex.def Info: imagens/LoginPage.png  used on input line 348.
 (pdftex.def)             Requested size: 136.86314pt x 256.92328pt.
-<imagens/RegisterPage.png, id=333, 368.1253pt x 716.6775pt>
+<imagens/RegisterPage.png, id=334, 368.1253pt x 716.6775pt>
 File: imagens/RegisterPage.png Graphic file (type png)
 <use imagens/RegisterPage.png>
-Package pdftex.def Info: imagens/RegisterPage.png  used on input line 356.
+Package pdftex.def Info: imagens/RegisterPage.png  used on input line 357.
 (pdftex.def)             Requested size: 132.52501pt x 258.00371pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 344--362
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 345--363
 [][] [] 
  []
 
-<imagens/HomePage.png, id=335, 371.3875pt x 719.68875pt>
+<imagens/HomePage.png, id=336, 371.3875pt x 719.68875pt>
 File: imagens/HomePage.png Graphic file (type png)
 <use imagens/HomePage.png>
-Package pdftex.def Info: imagens/HomePage.png  used on input line 373.
+Package pdftex.def Info: imagens/HomePage.png  used on input line 374.
 (pdftex.def)             Requested size: 185.69328pt x 359.84349pt.
 [21] [22 <./imagens/LoginPage.png (PNG copy)> <./imagens/RegisterPage.png> <./imagens/HomePage.png>]
-<imagens/PatientsPage.png, id=348, 373.395pt x 724.7075pt>
+<imagens/PatientsPage.png, id=349, 373.395pt x 724.7075pt>
 File: imagens/PatientsPage.png Graphic file (type png)
 <use imagens/PatientsPage.png>
-Package pdftex.def Info: imagens/PatientsPage.png  used on input line 401.
+Package pdftex.def Info: imagens/PatientsPage.png  used on input line 402.
 (pdftex.def)             Requested size: 130.6902pt x 253.65143pt.
-<imagens/PatientsModal.png, id=349, 373.395pt x 721.69624pt>
+<imagens/PatientsModal.png, id=350, 373.395pt x 721.69624pt>
 File: imagens/PatientsModal.png Graphic file (type png)
 <use imagens/PatientsModal.png>
-Package pdftex.def Info: imagens/PatientsModal.png  used on input line 410.
+Package pdftex.def Info: imagens/PatientsModal.png  used on input line 411.
 (pdftex.def)             Requested size: 130.6902pt x 252.59747pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 398--416
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 399--417
 [][] [] 
  []
 
-<imagens/PatientDetail.png, id=353, 352.31625pt x 714.67pt>
+<imagens/PatientDetail.png, id=354, 352.31625pt x 714.67pt>
 File: imagens/PatientDetail.png Graphic file (type png)
 <use imagens/PatientDetail.png>
-Package pdftex.def Info: imagens/PatientDetail.png  used on input line 431.
+Package pdftex.def Info: imagens/PatientDetail.png  used on input line 432.
 (pdftex.def)             Requested size: 123.31253pt x 250.13824pt.
-<imagens/PatientDetailExpanded.png, id=354, 351.3125pt x 714.67pt>
+<imagens/PatientDetailExpanded.png, id=355, 351.3125pt x 714.67pt>
 File: imagens/PatientDetailExpanded.png Graphic file (type png)
 <use imagens/PatientDetailExpanded.png>
-Package pdftex.def Info: imagens/PatientDetailExpanded.png  used on input line 440.
+Package pdftex.def Info: imagens/PatientDetailExpanded.png  used on input line 441.
 (pdftex.def)             Requested size: 122.96121pt x 250.13824pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 428--446
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 429--447
 [][] [] 
  []
 
-<imagens/PatientFilter.png, id=355, 340.27126pt x 686.565pt>
+<imagens/PatientFilter.png, id=356, 340.27126pt x 686.565pt>
 File: imagens/PatientFilter.png Graphic file (type png)
 <use imagens/PatientFilter.png>
-Package pdftex.def Info: imagens/PatientFilter.png  used on input line 452.
+Package pdftex.def Info: imagens/PatientFilter.png  used on input line 453.
 (pdftex.def)             Requested size: 119.09671pt x 240.30135pt.
-<imagens/Table.png, id=356, 685.56125pt x 353.32pt>
+<imagens/Table.png, id=357, 685.56125pt x 353.32pt>
 File: imagens/Table.png Graphic file (type png)
 <use imagens/Table.png>
-Package pdftex.def Info: imagens/Table.png  used on input line 467.
+Package pdftex.def Info: imagens/Table.png  used on input line 468.
 (pdftex.def)             Requested size: 479.8896pt x 247.32231pt.
 
-Overfull \hbox (24.8896pt too wide) in paragraph at lines 467--467
+Overfull \hbox (24.8896pt too wide) in paragraph at lines 468--468
  [][] 
  []
 
-<imagens/TextEditor.png, id=357, 367.3725pt x 555.07375pt>
+<imagens/TextEditor.png, id=358, 367.3725pt x 555.07375pt>
 File: imagens/TextEditor.png Graphic file (type png)
 <use imagens/TextEditor.png>
-Package pdftex.def Info: imagens/TextEditor.png  used on input line 478.
+Package pdftex.def Info: imagens/TextEditor.png  used on input line 479.
 (pdftex.def)             Requested size: 257.15898pt x 388.54897pt.
 [23 <./imagens/PatientsPage.png> <./imagens/PatientsModal.png>] [24 <./imagens/PatientDetail.png> <./imagens/PatientDetailExpanded.png> <./imagens/PatientFilter.png>]
-<imagens/TrainingMathing.png, id=372, 501.875pt x 260.975pt>
+<imagens/TrainingMathing.png, id=373, 501.875pt x 260.975pt>
 File: imagens/TrainingMathing.png Graphic file (type png)
 <use imagens/TrainingMathing.png>
-Package pdftex.def Info: imagens/TrainingMathing.png  used on input line 507.
+Package pdftex.def Info: imagens/TrainingMathing.png  used on input line 508.
 (pdftex.def)             Requested size: 301.12732pt x 156.5862pt.
-<imagens/TrainingReceptive.png, id=374, 501.875pt x 260.975pt>
+<imagens/TrainingReceptive.png, id=375, 501.875pt x 260.975pt>
 File: imagens/TrainingReceptive.png Graphic file (type png)
 <use imagens/TrainingReceptive.png>
-Package pdftex.def Info: imagens/TrainingReceptive.png  used on input line 524.
+Package pdftex.def Info: imagens/TrainingReceptive.png  used on input line 525.
 (pdftex.def)             Requested size: 301.12732pt x 156.5862pt.
-<imagens/TrainingExprecive.png, id=376, 501.875pt x 260.975pt>
+<imagens/TrainingExprecive.png, id=377, 501.875pt x 260.975pt>
 File: imagens/TrainingExprecive.png Graphic file (type png)
 <use imagens/TrainingExprecive.png>
-Package pdftex.def Info: imagens/TrainingExprecive.png  used on input line 542.
+Package pdftex.def Info: imagens/TrainingExprecive.png  used on input line 543.
 (pdftex.def)             Requested size: 301.12732pt x 156.5862pt.
 ) [25 <./imagens/Table.png>] [26 <./imagens/TextEditor.png> <./imagens/TrainingMathing.png>] [27 <./imagens/TrainingReceptive.png> <./imagens/TrainingExprecive.png>]
 \openout2 = `c_resultados.aux'.
@@ -1633,18 +1635,18 @@ AED: lastpage setting LastPage
 
  (./Projeto.aux (./pre_textuais.aux) (./c_introducao.aux) (./referencial.aux) (./c_metodologia.aux) (./c_resultados.aux) (./c_conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 44294 strings out of 478287
- 962122 string characters out of 5849289
+ 44314 strings out of 478287
+ 962411 string characters out of 5849289
  1440133 words of memory out of 5000000
- 61326 multiletter control sequences out of 15000+600000
- 568871 words of font info for 209 fonts, out of 8000000 for 9000
+ 61331 multiletter control sequences out of 15000+600000
+ 576859 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,12n,104p,1034b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
-Output written on Projeto.pdf (33 pages, 1585207 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
+Output written on Projeto.pdf (33 pages, 1597751 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 513 compressed objects within 6 object streams
+ 625 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
  115 named destinations out of 1000 (max. 500000)
- 55689 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 59785 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -1538,6 +1538,7 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -1669,6 +1670,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT ./imagens/Atomic_design.png
 INPUT ./imagens/Atomic_design.png
 INPUT imagens/Atomic_design.png
@@ -1824,6 +1826,7 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr7.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
