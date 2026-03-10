@@ -1,9 +1,9 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces Ilustração do \textit {Atomic Design}\relax }}{15}{figure.caption.8}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama de sequência com perfil de terapeuta detalhando as principais ações do terapeuta na utilização do sistema\relax }}{16}{figure.caption.9}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama de sequência com perfil de terapeuta detalhando as principais ações do terapeuta na utilização do sistema \relax }}{16}{figure.caption.9}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Diagrama de sequência com perfil de família detalhando as principais ações da família na utilização do sistema\relax }}{17}{figure.caption.10}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Persona elaborada para representar um usuário com maior familiaridade no uso de softwares.\relax }}{18}{figure.caption.11}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Persona elaborada para representar um usuário com menor familiaridade no uso de software, necessitando de uma experiência mais intuitiva.\relax }}{18}{figure.caption.12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Persona elaborada para representar um usuário com maior familiaridade no uso de \textit {softwares}.\relax }}{18}{figure.caption.11}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Persona elaborada para representar um usuário com menor familiaridade no uso de \textit {software}, necessitando de uma experiência mais intuitiva. \relax }}{18}{figure.caption.12}%
 \contentsline {figure}{\numberline {6}{\ignorespaces Fluxo de navegação\relax }}{19}{figure.caption.13}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Página de \textit {login}\relax }}{22}{figure.caption.14}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Página de cadastro\relax }}{22}{figure.caption.14}%
@@ -13,7 +13,8 @@
 \contentsline {figure}{\numberline {12}{\ignorespaces Página de perfil listando todas anotações disponíveis\relax }}{24}{figure.caption.17}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Perfil com anotação expandida\relax }}{24}{figure.caption.17}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Página de pacientes com filtro estendido\relax }}{24}{figure.caption.18}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Tipos de anotações\relax }}{25}{figure.caption.19}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Treino por correspondência onde o sucesso é interagir com o cartão que corresponde à imagem\relax }}{25}{figure.caption.20}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Treino receptivo onde o sucesso é interagir com o cartão referente ao comando do terapeuta\relax }}{26}{figure.caption.21}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Treino expressivo onde o sucesso é o terapeuta tocar no botão de sucesso\relax }}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Anotação por tabela\relax }}{25}{figure.caption.19}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Anotação por texto\relax }}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Treino por correspondência onde o sucesso é interagir com o cartão que corresponde à imagem\relax }}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Treino receptivo onde o sucesso é interagir com o cartão referente ao comando do terapeuta\relax }}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Treino expressivo onde o sucesso é o terapeuta tocar no botão de sucesso\relax }}{27}{figure.caption.23}%

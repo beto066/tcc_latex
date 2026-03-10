@@ -1619,6 +1619,7 @@ INPUT ./Projeto.toc
 INPUT Projeto.toc
 INPUT Projeto.toc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT ./c_introducao.tex
 INPUT ./c_introducao.tex
 INPUT ./c_introducao.tex
@@ -1673,6 +1674,7 @@ INPUT ./imagens/Atomic_design.png
 INPUT imagens/Atomic_design.png
 INPUT ./imagens/Atomic_design.png
 INPUT ./imagens/Atomic_design.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso17.tfm
 INPUT ./imagens/Diagrama do terapeuta.drawio.png
 INPUT ./imagens/Diagrama do terapeuta.drawio.png
 INPUT imagens/Diagrama do terapeuta.drawio.png
@@ -1826,4 +1828,6 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb

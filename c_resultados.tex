@@ -4,31 +4,65 @@
 
 \chapter{Resultados}\label{cap:resultados}
 
-A proposta deste software é auxiliar os terapeutas na implementação do método ABA, oferecendo uma gama de recursos para coleta de dados e anotações facilitadas, além de facilitar o compartilhamento com outros terapeutas da criança e a família, aumentando a eficiência no acesso aos dados, tanto brutos quanto compilados. O software será desenvolvido com foco na usabilidade e acessibilidade para atingir um público mais amplo.
+A proposta deste \textit{software} é auxiliar os terapeutas na implementação do método ABA, 
+oferecendo uma gama de recursos para coleta de dados e anotações facilitadas, além de facilitar 
+o compartilhamento com outros terapeutas da criança e a família, aumentando a eficiência no 
+acesso aos dados, tanto brutos quanto compilados. O \textit{software} foi desenvolvido com foco na 
+usabilidade e acessibilidade para atingir um público mais amplo.
 
-A interface será construída utilizando Flutter Dart, consumindo uma API baseada em Quarkus JAVA. O software terá como uma de suas principais funcionalidades a capacidade de criar e consultar anotações voltadas para a aplicação do método ABA. Além disso, contará com uma seção destinada especificamente à técnica do ABA, treino por tentativas discretas.
+A interface foi construída utilizando Flutter Dart, consumindo uma API baseada em Quarkus JAVA. 
+O \textit{software} tem como uma de suas principais funcionalidades a capacidade de criar e 
+consultar anotações voltadas para a aplicação do método ABA. Além disso, contará com uma seção 
+destinada especificamente à técnica do ABA, treino por tentativas discretas.
 
 \section{Levantamento Bibliográfico}
 
-Com o intuito de explorar as dificuldades enfrentadas pelos terapeutas ao aplicar o método ABA, foi realizada uma pesquisa bibliográfica. O objetivo era compreender conceitos, técnicas e soluções para desafios associados a esse método. Com base nessa pesquisa, foi delineada uma abordagem para a criação de anotações compartilhadas e compiladas, visando facilitar a compreensão do progresso e das dificuldades individuais de cada paciente.
+Com o intuito de explorar as dificuldades enfrentadas pelos terapeutas ao aplicar o método ABA, 
+foi realizada uma pesquisa bibliográfica. O objetivo era compreender conceitos, 
+técnicas e soluções para desafios associados a esse método. Com base nessa pesquisa, 
+foi delineada uma abordagem para a criação de anotações compartilhadas e compiladas, 
+visando facilitar a compreensão do progresso e das dificuldades individuais de cada paciente.
 
-Adicionalmente, observou-se que uma das técnicas do ABA utiliza estímulos específicos, e dependendo da resposta do paciente, são feitas anotações distintas. Com isso em mente, foi concebido um método para automatizar o armazenamento desses dados, permitindo um registro mais eficiente e sistemático. Detalhes da pesquisa bibliográfica podem ser encontrados no capitulo \ref{cap:referencial_teorico}
+Adicionalmente, observou-se que uma das técnicas do ABA utiliza estímulos específicos, e 
+dependendo da resposta do paciente, são feitas anotações distintas. Com isso em mente, 
+foi concebido um método para automatizar o armazenamento desses dados, permitindo um registro 
+mais eficiente e sistemático. Detalhes da pesquisa bibliográfica podem ser encontrados no 
+capitulo \ref{cap:referencial_teorico}
 
 \section{Levantamento de Funcionalidades}
 
-As funcionalidades propostas se concentram primariamente no levantamento, compartilhamento e análise de dados, oferecendo amplas opções de configuração para tornar o software altamente flexível e adaptável às preferências do usuário. Além disso, incluem a capacidade de desvincular um paciente do terapeuta ou da rede de terapeutas.
+As funcionalidades propostas se concentram primariamente no levantamento, compartilhamento 
+e análise de dados, oferecendo amplas opções de configuração para tornar o \textit{software} altamente 
+flexível e adaptável às preferências do usuário. Além disso, incluem a capacidade de desvincular um 
+paciente do terapeuta ou da rede de terapeutas.
 
-O levantamento de dados pode ser realizado de três maneiras distintas: por meio de texto escrito em linguagem natural, com a inserção em tabelas configuráveis com opções predefinidas, ou pela aplicação de uma técnica do ABA, envolvendo interações do paciente com cartões, registrando dados como sucesso, sucesso com dica e erro.
+O levantamento de dados pode ser realizado de três maneiras distintas: por meio de texto 
+escrito em linguagem natural, com a inserção em tabelas configuráveis com opções predefinidas, 
+ou pela aplicação de uma técnica do ABA, envolvendo interações do paciente com cartões, 
+registrando dados como sucesso, sucesso com dica e erro.
 
-Os dados podem ser compartilhados entre os terapeutas na rede e a família do paciente. A cada anotação realizada pelo terapeuta, é dada a opção de decidir se esses dados serão compartilhados com a família do paciente. Além disso, há a possibilidade de o terapeuta bloquear temporariamente ou permanentemente a capacidade da família de fazer anotações adicionais.
+Os dados podem ser compartilhados entre os terapeutas na rede e a família do paciente. 
+A cada anotação realizada pelo terapeuta, é dada a opção de decidir se esses dados serão 
+compartilhados com a família do paciente. Além disso, há a possibilidade de o terapeuta 
+bloquear temporariamente ou permanentemente a capacidade da família de fazer anotações adicionais.
 
-A análise dos dados pode ser realizada de maneira geral, ou de forma detalhada, acessando cada anotação individualmente. Enquanto o terapeuta possui acesso às informações de todos os pacientes, a família só pode visualizar os dados referentes ao paciente vinculado.
+A análise dos dados pode ser realizada de maneira geral, ou de forma detalhada, acessando 
+cada anotação individualmente. Enquanto o terapeuta possui acesso às informações de todos os 
+pacientes, a família só pode visualizar os dados referentes ao paciente vinculado.
 
-A desvinculação do paciente do terapeuta pode ser executada por qualquer usuário após a confirmação por senha, e todos os outros vinculados ao paciente serão informados. Após a desvinculação, o terapeuta perde o acesso aos dados do paciente, enquanto a família mantém acesso a todas as anotações relacionadas ao paciente.
+A desvinculação do paciente do terapeuta pode ser executada por qualquer usuário após a 
+confirmação por senha, e todos os outros vinculados ao paciente serão informados. 
+Após a desvinculação, o terapeuta perde o acesso aos dados do paciente, enquanto a família mantém 
+acesso a todas as anotações relacionadas ao paciente.
 
-\section{Proposta do layout}
+\section{Proposta do \textit{layout}}
 
-Para o desenvolvimento do layout foi preciso uma análise de publico alvo, para um melhor entendimento foi criado duas personas para que o desenvolvimento do layout seja mais adequado com o publico alvo. O layout pode ser visto na seção \ref{sec:resultados_esperados}.
+Para o desenvolvimento do \textit{layout} foi preciso uma análise de publico alvo, 
+para um melhor entendimento foi criado duas personas para que o desenvolvimento do 
+\textit{layout} seja mais adequado com o publico alvo. O \textit{layout} pode ser 
+visto na seção \ref{sec:interface_usuário}.
+
+
 
 % Este estudo visa desenvolver uma aplicação móvel com suporte \textit{web}, exigindo ferramentas e padrões de projeto adequados. A escolha da ferramenta e do padrão deve permitir a compilação para \textit{Android} nativo e \textit{web}. Com base nisso, utilização de opções como React ou Flutter Dart que oferecem essa flexibilidade, com adaptações mínimas para ambas as versões.
 

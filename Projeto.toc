@@ -22,20 +22,20 @@
 \contentsline {section}{\numberline {3.1}Ferramentas de desenvolvimento}{14}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Padrões de projeto}{14}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Levantamento de Requisitos}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Funcionalidades do software}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Funcionalidades do \textit {software}}{16}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Experiencia do Usuário}{17}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Procedimentos de Validação de Usabilidade}{19}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Resultados esperados}{20}{section.3.6}%
+\contentsline {subsection}{\numberline {3.5.2}Instrumentos de coleta de dados}{20}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Interface do Usuário}{21}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Levantamento Bibliográfico}{27}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Levantamento de Funcionalidades}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Proposta do layout}{28}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Simulação de Uso com Dados Fictícios}{28}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Levantamento Bibliográfico}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Levantamento de Funcionalidades}{28}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Proposta do \textit {layout}}{29}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Trabalhos Futuros}{29}{section.5.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Trabalhos Futuros}{30}{section.5.1}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{30}{section*.25}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{31}{section*.26}%
 \vspace {\cftbeforechapterskip }
